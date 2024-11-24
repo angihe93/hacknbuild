@@ -7,7 +7,7 @@ int buzzerPin = 8;
 int discrete_delay_ms = 250; // shorter discrete_delay_ms when pulsed = 1 should correlate with tempo of playing
 int continuous_delay_ms = 200;
 bool continuous = 0;
-bool pulsed = 1;
+bool pulsed = 0;
 
 int last_delay = continuous_delay_ms;
 int last_cm = 10;
